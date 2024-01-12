@@ -35,24 +35,24 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated Humber College",
-    location: "Toronto, CA",
+    title: "Graduated bootcamp",
+    location: "Miami, FL",
     description:
       "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
     icon: React.createElement(LuGraduationCap),
     date: "2019",
   },
   {
-    title: "Rover Software Team Member",
-    location: "Toronto, CA",
+    title: "Front-End Developer",
+    location: "Orlando, FL",
     description:
-      "I worked with a team to create a functional rover that was capable of performing tasks which simulate typical mars exploration scenarios",
+      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
     icon: React.createElement(CgWorkAlt),
     date: "2019 - 2021",
   },
   {
-    title: "Lassonde Motorsports | Chassis Team Member",
-    location: "Toronto, CA",
+    title: "Full-Stack Developer",
+    location: "Houston, TX",
     description:
       "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
@@ -62,24 +62,24 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Socratic Sessions",
+    title: "SocSessions",
     description:
-      "Full-stack blog web application. Includes features such as user login authentication, image uploading, article editor, comments, and live view counter.",
+      "Full-stack blog web application. Includes features such as user login authentication, image uploading, article editor, live comments.",
     tags: ["React", "Next.js", "MongoDB", "Firebase", "Prisma"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "Breast Cancer Detection",
+    title: "ai-pathology",
     description:
-      "End-to-End Machine Learning Project utililzing CNN and pre-trained ML models to classify cancerous breast tissue. ",
+      "Researched and created custom convolutional neural network and leveraged transfer learning using popular pre-trained machine learning model architectures to classify breast cancer tissue as benign or malignant. ",
     tags: ["Python", "Tensorflow", "Keras", "Flask", "Kubernetes"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Object Detection",
+    title: "Word Analytics",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["Python", "Tensorflow", "SQL", "Tailwind", "Framer"],
+    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
@@ -96,12 +96,12 @@ export const skillsData = [
   "Tailwind",
   "Prisma",
   "MongoDB",
+  "Redux",
+  "GraphQL",
+  "Apollo",
+  "Express",
+  "PostgreSQL",
   "Python",
-  "Tensorflow",
-  "Keras",
-  "NumPy",
-  "Pandas",
-  "Kubernetes",
-  "Docker",
+  "Django",
   "Framer Motion",
 ] as const;

@@ -51,8 +51,8 @@ export const experiencesData = [
     date: "2019 - 2021",
   },
   {
-    title: "Lassonde Motorsports | Chassis Team Member",
-    location: "Toronto, CA",
+    title: "Full-Stack Developer",
+    location: "Houston, TX",
     description:
       "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
