@@ -8,20 +8,18 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { experiencesData } from "@/lib/data";
+import { useInView } from "react-intersection-observer";
+import { inView } from "framer-motion";
+import { useSectionInView } from "@/lib/hooks";
+import TimelineElement from "./timeline-element";
 
 export default function Experience() {
   return (
-    <section id="experience" className="scroll-mt-28 mb-28 sm:mb-40">
-      <SectionHeading>My Experience</SectionHeading>
-      <VerticalTimeline lineColor="black">
+    <section id="experience">
+      <SectionHeading>My experience</SectionHeading>
+      <VerticalTimeline lineColor="">
         {experiencesData.map((item, index) => (
-          <React.Fragment key={index}>
-            <h3 className="font-semibold capitalize">{item.title}</h3>
-            <p className="font-normal text-black mt-0">{item.location}</p>
-            <p className="mt-1 font-normal text-gray-700 dark:text-black/75">
-              {item.description}
-            </p>
-          </React.Fragment>
+          <TimelineElement key={index} item={item} />
         ))}
       </VerticalTimeline>
     </section>
