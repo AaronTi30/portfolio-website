@@ -43,7 +43,7 @@ export const experiencesData = [
     date: "2019",
   },
   {
-    title: "Rover Software Team Member",
+    title: "YURS | Rover Software Team",
     location: "Toronto, CA",
     description:
       "I worked with a team to create a functional rover that was capable of performing tasks which simulate typical mars exploration scenarios",
@@ -51,7 +51,7 @@ export const experiencesData = [
     date: "2019 - 2021",
   },
   {
-    title: "Lassonde Motorsports | Chassis Team Member",
+    title: "Lassonde Motorsports | Chassis Team",
     location: "Toronto, CA",
     description:
       "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
