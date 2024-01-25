@@ -12,11 +12,9 @@ import { useInView } from "react-intersection-observer";
 import { inView } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 import TimelineElement from "./timeline-element";
-import { useTheme } from "@/context/theme-context";
 
 export default function Experience() {
   const { ref } = useSectionInView("Experience");
-  const { theme } = useTheme();
 
   return (
     <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">

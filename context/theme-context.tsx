@@ -41,7 +41,7 @@ export default function ThemeContextProvider({
       if (localTheme === "dark") {
         document.documentElement.classList.add("dark");
       }
-    } else if (window.matchMedia("(prefers.color-scheme: dark)").matches) {
+    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
       setTheme("dark");
       document.documentElement.classList.add("dark");
     }
@@ -63,7 +63,7 @@ export function useTheme() {
   const context = useContext(ThemeContext);
 
   if (context === null) {
-    throw new Error("useTheme must be used within a ThemeContextProvider");
+    throw new Error("useTheme must be used within a ThemeContextProvider.");
   }
 
   return context;

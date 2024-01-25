@@ -4,11 +4,10 @@ import { useInView } from "react-intersection-observer";
 import { useTheme } from "@/context/theme-context";
 
 export default function TimelineElement({ item }) {
+  const { theme } = useTheme();
   const { ref, inView } = useInView({
     triggerOnce: true,
   });
-
-  const { theme } = useTheme;
 
   return (
     <div ref={ref} className="vertical-timeline-element">
