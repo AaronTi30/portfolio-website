@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import cancerdetection from "@/public/cancerdetection.png";
+import objectdetect from "@/public/objectdetect.png";
+import socsessions from "@/public/socsessions.png";
 
 export const links = [
   {
@@ -37,9 +37,9 @@ export const experiencesData = [
   {
     title: "Studying at York University",
     location: "Toronto, CA",
-    description: "Enrolled into a Bachelors of Computer Science Program",
+    description: "Enrolled into Bachelors of Computer Science Program",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2022",
   },
   {
     title: "YURS | Rover Software Team",
@@ -65,21 +65,24 @@ export const projectsData = [
     description:
       "Full-stack blog web application. Includes features such as user login authentication, image uploading, article editor, comments, and live view counter.",
     tags: ["React", "Next.js", "MongoDB", "Firebase", "Prisma"],
-    imageUrl: corpcommentImg,
+    imageUrl: socsessions,
+    githubUrl: "https://github.com/AaronTi30/blog-app",
   },
   {
-    title: "Breast Cancer Detection",
+    title: "AI Diagnostics",
     description:
-      "End-to-End Machine Learning Project utililzing CNN and pre-trained ML models to classify cancerous breast tissue. ",
+      "End-to-End Machine Learning Project utililzing CNN and pre-trained ML models to classify cancerous breast tissue as either benign or malignant. ",
     tags: ["Python", "Tensorflow", "Keras", "Flask", "Kubernetes"],
-    imageUrl: rmtdevImg,
+    imageUrl: cancerdetection,
+    githubUrl: "https://github.com/AaronTi30/ai-pathology",
   },
   {
-    title: "Object Detection",
+    title: "Object Oracle",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["Python", "Tensorflow", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Leveraged pre-trained ML model in order to accurately predict and label objects in frame. Potential use cases include: Autonomous driving, animal detection, and people detection.",
+    tags: ["Python", "Tensorflow", "OpenCV"],
+    imageUrl: objectdetect,
+    githubUrl: "https://github.com/AaronTi30/Object-detection",
   },
 ] as const;
 
